@@ -1,0 +1,81 @@
+# Node.js .gitignore
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory
+coverage/
+.nyc_output/
+
+# Build output
+dist/
+build/
+
+# Logs
+logs/
+*.log
+
+# Optional npm cache
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Optional Chokidar CLI
+chokidar-*.txt
+
+# Optional stylelint cache
+.stylelintcache
+
+# Optional parcel cache
+.parcel-cache/
+
+# Optional next.js build
+.next/
+out/
+
+# Optional SvelteKit build
+.svelte-kit/
+
+# Optional vuepress build
+.vuepress/dist/
+
+# Optional serverless directory
+.serverless/
+
+# Optional AWS SAM
+.aws-sam/
+
+# Optional dotenv
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Optional debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Optional OS
+.DS_Store
+Thumbs.db
